@@ -1,0 +1,14 @@
+before class method(initialize)
+open the browser and launch newtours site
+Gotohome page
+
+@Test --> verifyhomepagelinks()
+click on homepage link
+verify the title
+
+
+click on flights link
+verify the title
+
+click on hotels link
+verigy the title

@@ -4,10 +4,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import CommonPage.SideMenu;
 
+@Listeners(Utility.Master_Listener.class)
 public class SideMenuTests {
 	
 	static WebDriver driver;
@@ -25,7 +27,7 @@ public class SideMenuTests {
 	}
 	
 	@Test
-	public void verifySidemenuLinks()
+	public void TC_SideMenu_01()
 	{
 		//step-1 click on homepage link
 		spo.Home_click();

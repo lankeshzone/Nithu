@@ -33,6 +33,9 @@ public class TopMenu {
 		{
 			register_Link();
 			register.click();
+			
+			//if exception occurs (NoElementfoundException/Staleelementreference, element status))
+			//screenshots
 		}
 		
 		public static void support_Link()
